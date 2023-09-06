@@ -1,34 +1,31 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Ábrahám":
+  - firstname: ["Erika", "E."]
+    url: https://ths.rwth-aachen.de/people/erika-abraham/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Badings":
+  - firstname: ["Thom", "Thom S.", "T. S."]
+    url: https://thombadings.nl
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Bonakdarpour":
+  - firstname: ["Borzoo", "B."]
+    url: https://www.cse.msu.edu/~borzoo/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Jansen":
+  - firstname: ["Nils", "N."]
+    url: https://nilsjansen.org
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Junges":
+  - firstname: ["Sebastian", "S."]
+    url: https://sjunges.github.io
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Katoen":
+  - firstname: ["Joost-Pieter", "J.-P."]
+    url: https://moves.rwth-aachen.de/people/katoen/
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Quatmann":
+  - firstname: ["Tim", "T."]
+    url: https://moves.rwth-aachen.de/people/quatmann/
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Stoelinga":
+  - firstname: ["Mariëlle", "Marielle", "M. I. A.", "Mariëlle I. A.", "Marielle I. A."]
+    url: https://wwwhome.ewi.utwente.nl/~marielle/

@@ -1,6 +1,24 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Conferences
+"ATVA"
+"CAV"
+"DSN"
+"ESREL"
+"FMICS"
+"FTSCS"
+"LADC"
+"NFM"
+"MBMV"
+"Petri Nets"
+"QEST"
+"PRDC"
+"SAFECOMP"
+"SEFM"
+"SRDS"
 
-"PhysRev":
-  url: https://journals.aps.org/
+# Journals
+"DC"
+"RESS"
+"STTT"
+"TII"
+
+

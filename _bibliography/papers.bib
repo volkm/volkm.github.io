@@ -1,84 +1,504 @@
----
----
 
-@string{aps = {American Physical Society,}}
+% 2023
+%%%%%%
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{BFL_QSAT,
+    author    = {Caz Saaltink and
+                 Stefano M. Nicoletti and
+                 Matthias Volk and
+                 E. Moritz Hahn and
+                 Mari{\"{e}}lle Stoelinga},
+    title      = {Solving Queries for Boolean Fault Tree Logic via Quantified SAT},
+    booktitle = {FTSCS},
+    year      = {2023},
+    abbr = {FTSCS},
+    notes = {to appear},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{STAMINA,
+    author    = {Joshua Jeppson and
+                 Matthias Volk and
+                 Bryant Israelsen and
+                 Riley Roberts and
+                 Andrew Williams and
+                 Lukas Buecherl and
+                 Chris J. Myers and
+                 Hao Zheng and
+                 Chris Winstead and
+                 Zhen Zhang},
+    title      = {STAMINA in C++: Modernizing an Infinite-State Probabilistic Model Checker},
+    booktitle = {QEST},
+    year      = {2023},
+    abbr = {QEST},
+    supp = {https://staminachecker.org/results/qest23},
+    notes = {to appear},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@inproceedings{INVAP,
+    author    = {Reza Soltani and
+                 Matthias Volk and
+                 Leonardo Diamonte and
+                 Milan Lopuha{\"{a}}-Zwakenberg and
+                 Mari{\"{e}}lle Stoelinga},
+    title      = {Optimal spare management via statistical model checking: A case study in research reactors},
+    booktitle = {FMICS},
+    year      = {2023},
+    abbr = {FMICS},
+    supp = {https://doi.org/10.5281/zenodo.7970835},
+    notes = {to appear},
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+
+@inproceedings{ESREL_PID,
+    author    = {Wouter Bos and
+                 Matthias Volk and
+                 Mari{\"{e}}lle Stoelinga and
+                 Marc Bouissou and
+                 Pavel Kr\v{c}\'{a}l},
+    title     = {From Fault Trees to Piping and Instrumentation Diagrams},
+    booktitle = {ESREL},
+    pages     = {1234--1235},
+    publisher = {Research Publishing},
+    year      = {2023},
+    doi       = {10.3850/978-981-18-8071-1_P537-cd},
+    abbr = {ESREL},
+    pdf = {https://rpsonline.com.sg/proceedings/esrel2023/pdf/P537.pdf},
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{ESREL_SAFEST,
+    author    = {Matthias Volk and
+                 Muzammil Ibne Irshad and
+                 Joost-Pieter Katoen and
+                 Falak Sher and
+                 Mari{\"{e}}lle Stoelinga and
+                 Ahmad Zafar},
+    title     = {SAFEST: the static and dynamic fault tree analysis tool},
+    booktitle = {ESREL},
+    pages     = {193--200},
+    publisher = {Research Publishing},
+    year      = {2023},
+    doi       = {10.3850/978-981-18-8071-1_P407-cd},
+    abbr = {ESREL},
+    pdf = {https://rpsonline.com.sg/proceedings/esrel2023/pdf/P407.pdf},
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+% 2022
+%%%%%%
+
+@article{DBLP:journals/dc/VolkBKA22,
+  author    = {Matthias Volk and
+               Borzoo Bonakdarpour and
+               Joost-Pieter Katoen and
+               Saba Aflaki},
+  title     = {Synthesizing optimal bias in randomized self-stabilization},
+  journal   = {Distributed Comput.},
+  volume    = {35},
+  number    = {1},
+  pages     = {37--57},
+  year      = {2022},
+  doi       = {10.1007/s00446-021-00408-4},
+  abbr = {DC},
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@article{DBLP:journals/sttt/WeikVKN22,
+  author    = {Norman Weik and
+               Matthias Volk and
+               Joost-Pieter Katoen and
+               Nils Nie{\ss}en},
+  title     = {{DFT} modeling approach for operational risk assessment of railway
+               infrastructure},
+  journal   = {Int. J. Softw. Tools Technol. Transf.},
+  volume    = {24},
+  number    = {3},
+  pages     = {331--350},
+  year      = {2022},
+  doi       = {10.1007/s10009-022-00652-4},
+  abbr = {STTT},
+}
+
+@article{DBLP:journals/sttt/HenselJKQV22,
+  author    = {Christian Hensel and
+               Sebastian Junges and
+               Joost-Pieter Katoen and
+               Tim Quatmann and
+               Matthias Volk},
+  title     = {The probabilistic model checker Storm},
+  journal   = {Int. J. Softw. Tools Technol. Transf.},
+  volume    = {24},
+  number    = {4},
+  pages     = {589--610},
+  year      = {2022},
+  doi       = {10.1007/s10009-021-00633-z},
+  keywords  = {important},
+  abbr = {STTT},
+  arxiv = {2002.07080},
+}
+
+@inproceedings{DBLP:conf/cav/BadingsJJSV22,
+  author    = {Thom S. Badings and
+               Nils Jansen and
+               Sebastian Junges and
+               Mari{\"{e}}lle Stoelinga and
+               Matthias Volk},
+  title     = {Sampling-Based Verification of CTMCs with Uncertain Rates},
+  booktitle = {{CAV} {(2)}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {13372},
+  pages     = {26--47},
+  publisher = {Springer},
+  year      = {2022},
+  doi       = {10.1007/978-3-031-13188-2_2},
+  keywords  = {important},
+  abbr = {CAV},
+  arxiv = {2205.08300},
+  supp = {https://doi.org/10.5281/zenodo.6523863},
+}
+
+@inproceedings{DBLP:conf/nfm/BasgozeVKKS22,
+  author    = {Daniel Basg{\"{o}}ze and
+               Matthias Volk and
+               Joost-Pieter Katoen and
+               Shahid Khan and
+               Mari{\"{e}}lle Stoelinga},
+  title     = {BDDs Strike Back - Efficient Analysis of Static and Dynamic Fault
+               Trees},
+  booktitle = {{NFM}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {13260},
+  pages     = {713--732},
+  publisher = {Springer},
+  year      = {2022},
+  doi       = {10.1007/978-3-031-06773-0_38},
+  abbr = {NFM},
+  arxiv = {2202.02829},
+}
+
+@inproceedings{DBLP:conf/safecomp/Jimenez-RoaVS22,
+  author    = {Lisandro Arturo Jimenez-Roa and
+               Matthias Volk and
+               Mari{\"{e}}lle Stoelinga},
+  title     = {Data-Driven Inference of Fault Tree Models Exploiting Symmetry and
+               Modularization},
+  booktitle = {{SAFECOMP}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {13414},
+  pages     = {46--61},
+  publisher = {Springer},
+  year      = {2022},
+  doi       = {10.1007/978-3-031-14835-4_4},
+  abbr = {SAFECOMP},
+}
+
+% 2021
+%%%%%%
+
+@inproceedings{DBLP:conf/dsn/00020KBB21,
+  author    = {Shahid Khan and
+               Matthias Volk and
+               Joost-Pieter Katoen and
+               Alexis Braibant and
+               Marc Bouissou},
+  title     = {Model Checking the Multi-Formalism Language {FIGARO}},
+  booktitle = {{DSN}},
+  pages     = {463--470},
+  publisher = {{IEEE}},
+  year      = {2021},
+  doi       = {10.1109/DSN48987.2021.00056},
+  abbr = {DSN},
+}
+
+@inproceedings{DBLP:conf/ladc/KhanKVZS21,
+  author    = {Shahid Khan and
+               Joost-Pieter Katoen and
+               Matthias Volk and
+               Muhammad Ahmad Zafar and
+               Falak Sher},
+  title     = {Modelling and Analysis of Fire Sprinklers by Verifying Dynamic Fault
+               Trees},
+  booktitle = {{LADC}},
+  pages     = {1--10},
+  publisher = {{IEEE}},
+  year      = {2021},
+  doi       = {10.1109/LADC53747.2021.9672579},
+  abbr = {LADC},
+}
+
+@inproceedings{DBLP:conf/nfm/0002K0B21,
+  author    = {Shahid Khan and
+               Joost-Pieter Katoen and
+               Matthias Volk and
+               Marc Bouissou},
+  title     = {Scalable Reliability Analysis by Lazy Verification},
+  booktitle = {{NFM}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {12673},
+  pages     = {180--197},
+  publisher = {Springer},
+  year      = {2021},
+  doi       = {10.1007/978-3-030-76384-8_12},
+  abbr = {NFM},
+}
+
+% 2019
+%%%%%%
+
+@article{DBLP:journals/ress/GhadhabJKKV19,
+  author    = {Majdi Ghadhab and
+               Sebastian Junges and
+               Joost-Pieter Katoen and
+               Matthias Kuntz and
+               Matthias Volk},
+  title     = {Safety analysis for vehicle guidance systems with dynamic fault trees},
+  journal   = {Reliab. Eng. Syst. Saf.},
+  volume    = {186},
+  pages     = {37--50},
+  year      = {2019},
+  doi       = {10.1016/j.ress.2019.02.005},
+  keywords  = {important},
+  abbr = {RESS},
+  arxiv = {1903.05361},
+}
+
+@inproceedings{DBLP:conf/fmics/0001WKN19,
+  author    = {Matthias Volk and
+               Norman Weik and
+               Joost-Pieter Katoen and
+               Nils Nie{\ss}en},
+  title     = {A {DFT} Modeling Approach for Infrastructure Reliability Analysis
+               of Railway Station Areas},
+  booktitle = {{FMICS}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {11687},
+  pages     = {40--58},
+  publisher = {Springer},
+  year      = {2019},
+  doi       = {10.1007/978-3-030-27008-7_3},
+  keywords  = {important},
+  abbr = {FMICS},
+}
+
+@inproceedings{DBLP:conf/prdc/KhanK0B19,
+  author    = {Shahid Khan and
+               Joost-Pieter Katoen and
+               Matthias Volk and
+               Marc Bouissou},
+  title     = {Synergizing Reliability Modeling Languages: BDMPs without Repairs
+               and DFTs},
+  booktitle = {{PRDC}},
+  pages     = {266--275},
+  publisher = {{IEEE}},
+  year      = {2019},
+  doi       = {10.1109/PRDC47002.2019.00057},
+  abbr = {PRDC},
+}
+
+@inproceedings{DBLP:conf/sefm/ElderhalliVHKT19,
+  author    = {Yassmeen Elderhalli and
+               Matthias Volk and
+               Osman Hasan and
+               Joost-Pieter Katoen and
+               Sofi{\`{e}}ne Tahar},
+  title     = {Formal Verification of Rewriting Rules for Dynamic Fault Trees},
+  booktitle = {{SEFM}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {11724},
+  pages     = {513--531},
+  publisher = {Springer},
+  year      = {2019},
+  doi       = {10.1007/978-3-030-30446-1_27},
+  abbr = {SEFM},
+}
+
+% 2018
+%%%%%%
+
+@article{DBLP:journals/tii/VolkJK18,
+  author    = {Matthias Volk and
+               Sebastian Junges and
+               Joost-Pieter Katoen},
+  title     = {Fast Dynamic Fault Tree Analysis by Model Checking Techniques},
+  journal   = {{IEEE} Trans. Ind. Informatics},
+  volume    = {14},
+  number    = {1},
+  pages     = {370--379},
+  year      = {2018},
+  doi       = {10.1109/TII.2017.2710316},
+  keywords  = {important},
+  abbr = {TII},
+}
+
+@inproceedings{DBLP:conf/apn/JungesKS018,
+  author    = {Sebastian Junges and
+               Joost-Pieter Katoen and
+               Mari{\"{e}}lle Stoelinga and
+               Matthias Volk},
+  title     = {One Net Fits All - {A} Unifying Semantics of Dynamic Fault Trees Using
+               GSPNs},
+  booktitle = {Petri Nets},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {10877},
+  pages     = {272--293},
+  publisher = {Springer},
+  year      = {2018},
+  doi       = {10.1007/978-3-319-91268-4_14},
+  abbr = {Petri Nets},
+  arxiv = {1803.05376},
+}
+
+% 2017
+%%%%%%
+
+@inproceedings{DBLP:conf/cav/DehnertJK017,
+  author    = {Christian Dehnert and
+               Sebastian Junges and
+               Joost-Pieter Katoen and
+               Matthias Volk},
+  title     = {A Storm is Coming: {A} Modern Probabilistic Model Checker},
+  booktitle = {{CAV} {(2)}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {10427},
+  pages     = {592--600},
+  publisher = {Springer},
+  year      = {2017},
+  doi       = {10.1007/978-3-319-63390-9_31},
+  abbr = {CAV},
+  arxiv = {1702.04311},
+}
+
+@inproceedings{DBLP:conf/safecomp/GhadhabJKKV17,
+  author    = {Majdi Ghadhab and
+               Sebastian Junges and
+               Joost-Pieter Katoen and
+               Matthias Kuntz and
+               Matthias Volk},
+  title     = {Model-Based Safety Analysis for Vehicle Guidance Systems},
+  booktitle = {{SAFECOMP}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {10488},
+  pages     = {3--19},
+  publisher = {Springer},
+  year      = {2017},
+  doi       = {10.1007/978-3-319-66266-4_1},
+  abbr = {SAFECOMP},
+}
+
+@inproceedings{DBLP:conf/srds/AflakiVBKS17,
+  author    = {Saba Aflaki and
+               Matthias Volk and
+               Borzoo Bonakdarpour and
+               Joost-Pieter Katoen and
+               Arne Storjohann},
+  title     = {Automated Fine Tuning of Probabilistic Self-Stabilizing Algorithms},
+  booktitle = {{SRDS}},
+  pages     = {94--103},
+  publisher = {{IEEE} Computer Society},
+  year      = {2017},
+  doi       = {10.1109/SRDS.2017.22},
+  abbr = {SEFM},
+}
+
+% 2016
+%%%%%%
+
+@inproceedings{DBLP:conf/mbmv/DehnertJ0CVKAB16,
+  author    = {Christian Dehnert and
+               Sebastian Junges and
+               Nils Jansen and
+               Florian Corzilius and
+               Matthias Volk and
+               Joost-Pieter Katoen and
+               Erika {\'{A}}brah{\'{a}}m and
+               Harold Bruintjes},
+  title     = {Parameter Synthesis for Probabilistic Systems},
+  booktitle = {{MBMV}},
+  pages     = {72--74},
+  publisher = {Albert-Ludwigs-Universit{\"{a}}t Freiburg},
+  year      = {2016},
+  doi       = {10.6094/UNIFR/10639},
+  abbr = {MBMV},
+}
+
+@inproceedings{DBLP:conf/safecomp/0001JK16,
+  author    = {Matthias Volk and
+               Sebastian Junges and
+               Joost-Pieter Katoen},
+  title     = {Advancing Dynamic Fault Tree Analysis - Get Succinct State Spaces
+               Fast and Synthesise Failure Rates},
+  booktitle = {{SAFECOMP}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {9922},
+  pages     = {253--265},
+  publisher = {Springer},
+  year      = {2016},
+  doi       = {10.1007/978-3-319-45477-1_20},
+  abbr = {SAFECOMP},
+  arxiv = {1604.07474},
+}
+
+% 2015
+%%%%%%
+
+@inproceedings{DBLP:conf/cav/DehnertJJCVBKA15,
+  author    = {Christian Dehnert and
+               Sebastian Junges and
+               Nils Jansen and
+               Florian Corzilius and
+               Matthias Volk and
+               Harold Bruintjes and
+               Joost-Pieter Katoen and
+               Erika {\'{A}}brah{\'{a}}m},
+  title     = {PROPhESY: {A} PRObabilistic ParamEter SYnthesis Tool},
+  booktitle = {{CAV} {(1)}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {9206},
+  pages     = {214--231},
+  publisher = {Springer},
+  year      = {2015},
+  doi       = {10.1007/978-3-319-21690-4_13},
+  abbr = {CAV},
+}
+
+% 2014
+%%%%%%
+
+@inproceedings{DBLP:conf/qest/JansenCVWAKB14,
+  author    = {Nils Jansen and
+               Florian Corzilius and
+               Matthias Volk and
+               Ralf Wimmer and
+               Erika {\'{A}}brah{\'{a}}m and
+               Joost-Pieter Katoen and
+               Bernd Becker},
+  title     = {Accelerating Parametric Probabilistic Verification},
+  booktitle = {{QEST}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {8657},
+  pages     = {404--420},
+  publisher = {Springer},
+  year      = {2014},
+  doi       = {10.1007/978-3-319-10696-0_31},
+  abbr = {QEST},
+  arxiv = {1312.3979},
+}
+
+% 2012
+%%%%%%
+
+@inproceedings{DBLP:conf/atva/JansenAVWKB12,
+  author    = {Nils Jansen and
+               Erika {\'{A}}brah{\'{a}}m and
+               Matthias Volk and
+               Ralf Wimmer and
+               Joost-Pieter Katoen and
+               Bernd Becker},
+  title     = {The {COMICS} Tool - Computing Minimal Counterexamples for DTMCs},
+  booktitle = {{ATVA}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {7561},
+  pages     = {349--353},
+  publisher = {Springer},
+  year      = {2012},
+  doi       = {10.1007/978-3-642-33386-6_27},
+  abbr = {ATVA},
+  arxiv = {abs/1206.0603},
 }
