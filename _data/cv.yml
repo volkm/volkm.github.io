@@ -1,97 +1,73 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD, Computer Science
+      institution: RWTH Aachen University, Germany
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - "Title: <i>\"Dynamic Fault Trees: Semantics, Analysis and Applications\"</i>"
+        - "Supervisor: Prof. Joost-Pieter Katoen"
+      linkitems:
+        - link: https://publications.rwth-aachen.de/record/956330/files/956330.pdf
+          linkname: "Thesis"
 
-- title: Experience
+    - title: M.Sc., Computer Science
+      institution: RWTH Aachen University, Germany
+      year: 2015
+      description:
+        - "Master thesis: <i>\"Using SAT Solvers for Industrial Combinatorial Problems\"<i>"
+    - title: B.Sc., Computer Science
+      institution: RWTH Aachen University, Germany
+      year: 2012
+      description:
+        - "Bachelor thesis: <i>\"Verification and Synthesis for Parametric Markov Chains\"</i>"
+
+
+- title: Employment
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Post-doctoral Researcher
+      institution: University of Twente, Enschede, The Netherlands
+      department: Formal Methods & Tools Group (<a href="https://www.utwente.nl/en/eemcs/fmt/">FMT</a>)
+      year: since 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Group of Prof. Mariëlle Stoelinga
+    - title: PhD student
+      institution: RWTH Aachen University, Aachen, Germany
+      department: Software Modeling and Verification Group (<a href="https://moves.rwth-aachen.de/">MOVES</a>)
+      year: 2015-2020
       description:
-        - Description 1.
-        - Description 2.
+        - Group of Prof. Joost-Pieter Katoen
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Awards
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Manfred-Nagl-Award for PhD thesis
+      year: 2022
+      maindescription: The award is supported by the DSA Daten und Systemtechnik GmbH and honours outstanding dissertations in computer science with the potential to implement the researched solution in the form of a company start-up.
+      linkitems:
+        - link: https://www.dsa.de/de/News/News-Detail/dsa-verleiht-erstmalig-manfred-nagl-preis-innerhalb-der-fachgruppe-informatik-an-der-rwth-aachen-university.html
+          linkname: News (in German)
+    - title: 2nd place at the RWTH Innovation Award
+      year: 2020
+      maindescription: For the Storm model checker
+      linkitems:
+        - link: https://www.rwth-aachen.de/cms/root/die-rwth/Aktuell/Pressemitteilungen/Maerz-2021/~mzsyp/Ausgezeichnete-Ideen-fuer-eine-starke-Aa/?lidx=1
+          linkname: News
+        - link: https://www.youtube.com/watch?v=OFZqqlr136c
+          linkname: Video (in German)
+    - title: 3rd Place TRA VISIONS Young Researcher Competition
+      year: 2020
+      maindescription: In the "Rail" category for the contribution <i>"Reliability analysis of railway station infrastructure based on dynamic fault trees</i>
+      linkitems:
+        - link: https://www.travisions.eu/TRAVisions/young_researcher_results_2020/
+          linkname: News
+        - link: https://www.youtube.com/watch?v=OFZqqlr136c
+          linkname: Video
+    - title: Best Paper Award at FMICS
+      year: 2019
+      maindescription: For the paper <i>"A DFT Modeling Approach for Infrastructure Reliability Analysis of Railway Station Areas"</i>
+    - title: Prof. C.V. Ramamoorthy Best Paper Award at SRDS
+      year: 2017
+      maindescription: For the paper <i>"Automated Fine Tuning of Probabilistic Self-Stabilizing Algorithms"</i>
