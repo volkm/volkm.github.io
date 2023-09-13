@@ -15,9 +15,18 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+I am a researcher interested in the improvement of safety-critical systems through formal methods.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Since, 2021, I am a postdoctoral researcher at University of Twente, working with Marielle Stoelinga.
+Before, I was a PhD student at RWTH Aachen University, under the supervision of Joost-Pieter Katoen, working on <a href="https://publications.rwth-aachen.de/record/956330">Dynamic Fault Trees</a>.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+# Research goal
+My research goal is to improve the safety and reliability of complex, safety-critical systems through formal methods.
+Certifying that systems, such as autonomous vehicles, smart grids, and robotic systems, operate safely and reliably is a major challenge today.
+My aim is to
+1. develop rigorous, automated techniques for modeling and analyzing safety-critical systems,
+2. provide optimized implementations in mature tools for use by other researchers, and
+3. apply the approaches in industrial collaborations.
+
+In my research, I focus primarily on probabilistic model checking, and I am a main developer of the <a href="https://www.stormchecker.org/">Storm model checker</a>.
