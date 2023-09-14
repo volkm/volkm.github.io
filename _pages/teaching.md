@@ -18,6 +18,12 @@ src_content:
       - title: Wouter Bos
         maindescription: <i>Towards Inferring Piping & Instrumentation Diagrams from Static Fault Trees</i>, M.Sc.
         year: ongoing
+      - title: Nicolae Rusnac
+        maindescription: <i>Improving the Performance of Multi-Objective Evolutionary Algorithms for Fault Tree Inference</i>, B.Sc., supervised together with Lisandro Jimenez Roa
+        year: 2023
+      - title: Daniel Mocanu
+        maindescription: <i>Modeling and Analyzing Board Games through Markov Decision Processes</i>, B.Sc., supervised together with Milan Lopuhaä-Zwakenberg
+        year: 2023
       - title: Konrad Socha
         maindescription: <i>Fuzzy Markov chains</i>, M.Sc., supervised together with Moritz Hahn
         year: 2023
