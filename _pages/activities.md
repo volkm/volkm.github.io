@@ -1,7 +1,7 @@
 ---
 layout: cv
 permalink: /activities/
-title: activities
+title: Activities
 nav: true
 nav_order: 6
 src_content:

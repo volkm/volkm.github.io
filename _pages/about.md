@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Postdoc, <a href='https://www.utwente.nl/en/eemcs/fmt/'>Formal Methods &amp; Tools group</a>, <a href='https://www.utwente.nl/'>University of Twente</a>
 

@@ -1,7 +1,7 @@
 ---
 layout: collection
 permalink: /tools/
-title: tools
+title: Tools
 description:
 nav: true
 nav_order: 3
