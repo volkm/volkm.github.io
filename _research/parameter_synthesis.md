@@ -5,6 +5,7 @@ description: Analysis of parametric Markov models
 importance: 3
 category: research
 citations: true
+img: assets/img/parameter_synthesis.png
 ---
 
 Probabilistic model checking commonly assumes that the transition probabilities are precisely known.
