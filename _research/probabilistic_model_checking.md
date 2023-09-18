@@ -5,6 +5,7 @@ description: Model checking of Markov models
 importance: 1
 category: research
 citations: true
+img: assets/img/model_checking.png
 ---
 
 Probabilistic model checking allows to analyses Markov models such as discrete-time Markov chains (DTMC), Markov decision processes (MDP), continuous-time Markov chains (CTMC) and Markov automata (MA).

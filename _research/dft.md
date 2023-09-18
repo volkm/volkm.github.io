@@ -5,6 +5,7 @@ description: Static and dynamic fault tree analysis
 importance: 2
 category: research
 citations: true
+img: assets/img/dft_example.png
 ---
 
 Fault trees are a common modelling formalism in reliability engineering.
