@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Postdoc, <a href='https://www.utwente.nl/en/eemcs/fmt/'>Formal Methods &amp; Tools group</a>, <a href='https://www.utwente.nl/'>University of Twente</a>
+subtitle: Assistant Professor, <a href='https://fsa.win.tue.nl/'>Formal System Analysis group</a>, <a href='https://www.tue.nl/'>Eindhoven University of Technology</a>
 
 profile:
   align: right
@@ -17,8 +17,9 @@ social: true  # includes social icons at the bottom of the page
 ---
 I am a researcher interested in the improvement of safety-critical systems through formal methods.
 
-Since, 2021, I am a postdoctoral researcher at University of Twente, working with Marielle Stoelinga.
-Before, I was a PhD student at RWTH Aachen University, under the supervision of Joost-Pieter Katoen, working on <a href="https://publications.rwth-aachen.de/record/956330">Dynamic Fault Trees</a>.
+Since October 2023, I am an Assistant Professor at Eindhoven University of Technology and part of the Formal System Analysis group.
+Before, I was a postdoctoral researcher at <a href="https://www.utwente.nl/en/eemcs/fmt/">University of Twente</a>.
+I received my PhD from <a href="https://moves.rwth-aachen.de/">RWTH Aachen University</a> with a thesis on <a href="https://publications.rwth-aachen.de/record/956330">Dynamic Fault Trees</a>.
 
 
 # Research goal

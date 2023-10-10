@@ -32,10 +32,14 @@ src_content:
   - title: Employment
     type: time_table
     contents:
+      - title: Assistant Professor
+        institution: Eindhoven University of Technology, Eindhoven, The Netherlands
+        department: Formal System Analysis Group (<a href="https://fsa.win.tue.nl/">FSA</a>)
+        year: since 2023
       - title: Post-doctoral Researcher
         institution: University of Twente, Enschede, The Netherlands
         department: Formal Methods & Tools Group (<a href="https://www.utwente.nl/en/eemcs/fmt/">FMT</a>)
-        year: since 2021
+        year: 2021-2023
         description:
           - Group of Prof. Mariëlle Stoelinga
       - title: PhD student

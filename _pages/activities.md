@@ -39,8 +39,10 @@ src_content:
   - title: Artifact Evaluation Committees
     type: time_table
     contents:
+      - year: 2024
+        maindescription: <a href="https://spin-web.github.io/SPIN2024/">SPIN</a> (co-chair)
       - year: 2023
-        maindescription: FM (chair)
+        maindescription: <a href="https://fm2023.isp.uni-luebeck.de/">FM</a> (chair)
       - year: 2022
         maindescription: FASE
       - year: 2020
