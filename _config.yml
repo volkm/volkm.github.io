@@ -6,13 +6,13 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Matthias
 middle_name:
 last_name: Volk
-email: m.volk@utwente.nl
+email: m.volk@tue.nl
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal webpage of Matthias Volk.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: probabilistic model checking, dynamic fault trees academic-website
+keywords: probabilistic model checking, dynamic fault trees, academic-website
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -20,7 +20,7 @@ icon: favicon.png # the emoji used as the favicon (alternatively, provide image 
 url: https://volkm.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
-impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+impressum_path: /contact # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -104,7 +104,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  The best way to reach me is via email. Further contact options <a href='https://people.utwente.nl/m.volk?tab=contact'>here</a>.
+  The best way to reach me is via email. Further contact options <a href="/contact">here</a>.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
