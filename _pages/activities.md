@@ -34,6 +34,8 @@ src_content:
   - title: Program Committees
     type: time_table
     contents:
+      - year: 2024
+        maindescription: MARS (co-chair), AAMAS
       - year: 2023
         maindescription: AAAI (Special Track on Safe and Robust AI), FM, QEST
   - title: Artifact Evaluation Committees
