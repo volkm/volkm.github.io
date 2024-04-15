@@ -18,6 +18,10 @@ src_content:
   - title: Event Organization
     type: time_table
     contents:
+      - title: <a href='http://mars-workshop.org/mars2024/index.html'>MARS Workshop</a>
+        department: ETAPS 2024, Luxembourg City, Luxembourg
+        year: 2024
+        maindescription: "co-organiser"
       - title: "<a href='https://www.lorentzcenter.nl/predictive-maintenance-let-data-maintain-the-model.html'>Lorentz Workshop <i>\"Predictive maintenance: let data maintain the model\"</i></a>"
         department: Leiden, The Netherlands
         year: 2023
@@ -35,7 +39,7 @@ src_content:
     type: time_table
     contents:
       - year: 2024
-        maindescription: MARS (co-chair), AAMAS
+        maindescription: <a href="http://mars-workshop.org/mars2024/index.html">MARS</a> (co-chair), AAMAS
       - year: 2023
         maindescription: AAAI (Special Track on Safe and Robust AI), FM, QEST
   - title: Artifact Evaluation Committees
@@ -78,11 +82,14 @@ src_content:
     type: time_table
     contents:
       - maindescription: (conference talks presenting a paper are omitted)
+      - title: Verification of Parametric Markov Chains
+        department: Invited Talk at <a href="https://sites.lipn.univ-paris13.fr/workshops/syncop24">SynCoP 2024</a>, Luxembourg City, Luxembourg
+        year: 2024
       - title: "Dynamic Fault Trees: Analysis and Applications"
         department: Talk at RWS Research Event, Rijkswaterstaat, Capelle aan den IJssel, The Netherlands
         year: 2022
       - title: Verification of CTMCs with Uncertain Rates by Scenario Optimization
-        department: Talk at Kick-off meeting of MISSION project, INVAP, Bariloche, Argentina
+        department: Talk at <a href="https://mission-project.eu/2022/02/04/workshop-invap/">Kick-off meeting of MISSION project</a>, INVAP, Bariloche, Argentina
         year: 2022
       - title: The Probabilistic Model Checker Storm
         department: Invited Tutorial at DisCoTec, virtual
