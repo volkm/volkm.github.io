@@ -5,6 +5,13 @@ title: Teaching
 nav: true
 nav_order: 4
 src_content:
+  - title: Lectures
+    type: time_table
+    contents:
+      - title: Software specification (2IX20)
+        department: Eindhoven University of Technology
+        year: 2023
+
   - title: Guest lectures
     type: time_table
     contents:
@@ -15,9 +22,15 @@ src_content:
   - title: Thesis supervision
     type: time_table
     contents:
+      - title: Viraj Gaur
+        maindescription: <i>Handling backwards incompatible interface changes</i>, EngD, scientific supervisor
+        year: ongoing
+      - title: Kas Burgers
+        maindescription: <i>Family-based Fault-tree Analysis</i>, M.Sc., supervised together with Clemens Dubslaff
+        year: ongoing
       - title: Wouter Bos
         maindescription: <i>Towards Inferring Piping & Instrumentation Diagrams from Static Fault Trees</i>, M.Sc.
-        year: ongoing
+        year: 2024
       - title: Nicolae Rusnac
         maindescription: <i>Improving the Performance of Multi-Objective Evolutionary Algorithms for Fault Tree Inference</i>, B.Sc., supervised together with Lisandro Jimenez Roa
         year: 2023
