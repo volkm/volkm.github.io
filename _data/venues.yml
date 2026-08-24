@@ -1,7 +1,7 @@
 # Conferences
-# A few of these (MBMV, NFM, Petri Nets) don't have a fixed persistent domain --
-# each year's edition gets a new site -- so the url below points at the current
-# edition and will need refreshing periodically.
+# MBMV, NFM, and Petri Nets don't have a fixed persistent domain -- each year's
+# edition gets a new site -- so they're left without a url rather than linking
+# a site that will go stale.
 "ATVA":
   url: https://atva-conference.org/
 "CAV":
@@ -18,12 +18,9 @@
   url: https://ladc.sbc.org.br/
 "MARS":
   url: https://mars-workshop.org/
-"MBMV": # no persistent domain -- rotates host institution yearly
-  url: https://www.informatik.uni-wuerzburg.de/mbmv/
-"NFM": # no persistent index -- points at the current (2025) edition
-  url: https://shemesh.larc.nasa.gov/nfm2025/
-"Petri Nets": # no persistent domain -- points at the current (2025) edition
-  url: https://petrinets25.github.io/web/
+"MBMV":
+"NFM":
+"Petri Nets":
 "QEST":
   url: https://www.qest.org/
 "PRDC":
