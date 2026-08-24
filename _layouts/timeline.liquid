@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<!-- _layouts/timeline.liquid -->
+<!-- Displays content given in src_content with the timeline constructs -->
+<!-- Local override: al_folio_cv only supports one global site-wide CV dataset, but this site -->
+<!-- needs the same generic "list of dated entries" layout for cv.md, activities.md, and -->
+<!-- teaching.md, each with their own page-local src_content. Ported from the pre-v1 fork's -->
+<!-- _layouts/cv.html, renamed so it doesn't shadow al_folio_cv's own _layouts/cv.liquid. -->
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fa-solid fa-file-pdf"></i></a>{% endif %}</h1>
+      {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
+  </header>
+
+  <article>
+    <div class="cv">
+      {% for entry in page.src_content %}
+        <a class="anchor" id="{{ entry.title }}"></a>
+        <div class="card mt-3 p-3">
+          <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
+          <div>
+          {% if entry.type == "list" %}
+            {% include timeline/list.liquid %}
+          {% elsif entry.type == "map" %}
+            {% include timeline/map.liquid %}
+          {% elsif entry.type == "nested_list" %}
+            {% include timeline/nested_list.liquid %}
+          {% elsif entry.type == "time_table" %}
+            {% include timeline/time_table.liquid %}
+          {% elsif entry.type == "list_groups" %}
+            {% include timeline/list_groups.liquid %}
+          {% else %}
+            {{ entry.contents }}
+          {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+      </div>
+  </article>
+
+</div>

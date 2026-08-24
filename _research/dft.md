@@ -4,7 +4,7 @@ title: Dynamic fault trees
 description: Static and dynamic fault tree analysis
 importance: 2
 category: research
-citations: true
+related_publications: true
 img: assets/img/dft_example.png
 ---
 

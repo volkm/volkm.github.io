@@ -4,7 +4,7 @@ title: Parameter synthesis
 description: Analysis of parametric Markov models
 importance: 3
 category: research
-citations: true
+related_publications: true
 img: assets/img/parameter_synthesis.png
 ---
 

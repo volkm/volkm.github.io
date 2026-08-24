@@ -1,0 +1,9 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+email: m.volk@tue.nl # your email address
+github_username: volkm # your GitHub user name
+linkedin_username: matthias-volk # your LinkedIn user name
+scholar_userid: PR9ZLjsAAAAJ # your Google Scholar ID
+orcid_id: 0000-0002-3810-4185 # your ORCID ID
+dblp_url: https://dblp.uni-trier.de/pid/116/2813-1.html # your DBLP profile url
