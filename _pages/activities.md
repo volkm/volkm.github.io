@@ -38,17 +38,19 @@ src_content:
   - title: Program Committees
     type: time_table
     contents:
+      - year: 2025
+        maindescription: <a href="https://spin-web.github.io/SPIN2025">SPIN</a>, <a href="https://aamas2025.org">AAMAS</a>
       - year: 2024
-        maindescription: <a href="http://mars-workshop.org/mars2024/index.html">MARS</a> (co-chair), AAMAS
+        maindescription: <a href="http://mars-workshop.org/mars2024/index.html">MARS</a> (co-chair), <a href="https://www.aamas2024-conference.auckland.ac.nz">AAMAS</a>
       - year: 2023
         maindescription: AAAI (Special Track on Safe and Robust AI), FM, QEST
   - title: Artifact Evaluation Committees
     type: time_table
     contents:
       - year: 2024
-        maindescription: <a href="https://spin-web.github.io/SPIN2024/">SPIN</a> (co-chair)
+        maindescription: <a href="https://spin-web.github.io/SPIN2024">SPIN</a> (co-chair)
       - year: 2023
-        maindescription: <a href="https://fm2023.isp.uni-luebeck.de/">FM</a> (chair)
+        maindescription: <a href="https://fm2023.isp.uni-luebeck.de">FM</a> (chair)
       - year: 2022
         maindescription: FASE
       - year: 2020
