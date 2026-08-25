@@ -4,7 +4,7 @@ title: Probabilistic model checking
 description: Model checking of Markov models
 importance: 1
 category: research
-citations: true
+related_publications: true
 img: assets/img/model_checking.png
 ---
 

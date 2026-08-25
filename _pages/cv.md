@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: timeline
 permalink: /cv/
 title: CV
 nav: true

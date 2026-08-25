@@ -1,26 +1,49 @@
 # Conferences
-"ATVA"
-"CAV"
-"DSN"
-"ESREL"
-"FMICS"
-"FTSCS"
-"LADC"
-"MARS"
-"MBMV"
-"NFM"
-"Petri Nets"
-"QEST"
-"PRDC"
-"RAMS"
-"SAFECOMP"
-"SEFM"
-"SRDS"
-"TACAS"
+# MBMV, NFM, and Petri Nets don't have a fixed persistent domain -- each year's
+# edition gets a new site -- so they're left without a url rather than linking
+# a site that will go stale.
+"ATVA":
+  url: https://atva-conference.org/
+"CAV":
+  url: https://cavconference.org/
+"DSN":
+  url: https://www.dependability.org/?page_id=327
+"ESREL":
+  url: https://esra.website/esrel
+"FMICS":
+  url: https://fmics.inria.fr/
+"FTSCS":
+  url: https://www.ftscs.org/
+"LADC":
+  url: https://ladc.sbc.org.br/
+"MARS":
+  url: https://mars-workshop.org/
+"MBMV":
+"NFM":
+"Petri Nets":
+"QEST":
+  url: https://www.qest.org/
+"PRDC":
+  url: http://prdc.dependability.org/
+"RAMS":
+  url: https://rams.org/
+"SAFECOMP":
+  url: https://www.ewics.org/index.php/safecomp/safecomp-conference-series
+"SEFM":
+  url: https://sefm-conference.github.io/
+"SRDS":
+  url: https://srds-conference.org/
+"TACAS":
+  url: https://etaps.org/about/tacas/
 
 # Journals
-"DC"
-"FMSD"
-"RESS"
-"STTT"
-"TII"
+"DC":
+  url: https://link.springer.com/journal/446
+"FMSD":
+  url: https://link.springer.com/journal/10703
+"RESS":
+  url: https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety
+"STTT":
+  url: https://link.springer.com/journal/10009
+"TII":
+  url: https://www.ieee-ies.org/pubs/transactions-on-industrial-informatics
